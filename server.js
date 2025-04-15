@@ -29,7 +29,7 @@ app.use(
 
 connectDB();
 
-app.use("/api/auth", require("../backend/routes/api/auth"));
+app.use("/api/auth", require("./routes/api/auth"));
 
 app.use("/api",require("./routes/index"))
 
